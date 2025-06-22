@@ -4,7 +4,6 @@ import { calculateResults } from '../utils/calculation';
 
 export default function Results({ formData, prevStep }) {
     const results = calculateResults(formData);
-    ClientPageRoo
     return (
         <div>
             <h2>Calculation Results</h2>
