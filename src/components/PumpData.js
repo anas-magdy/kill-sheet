@@ -26,12 +26,12 @@ export default function PumpData({ formData, updateFormData, nextStep, prevStep 
 
             <div>
                 <label>PUMP NO. 1 DISPLACEMENT (bbls/stroke):</label>
-                <input type="number" name="pump1Displacement" value={data.pump1Displacement} onChange={handleChange} required />
+                <input type="number" name="pump1Displacement" value={data.pump1Displacement} onChange={handleChange} required step={.001} />
             </div>
 
             <div>
                 <label>PUMP NO. 2 DISPLACEMENT (bbls/stroke):</label>
-                <input type="number" name="pump2Displacement" value={data.pump2Displacement} onChange={handleChange} required />
+                <input type="number" name="pump2Displacement" value={data.pump2Displacement} onChange={handleChange} required step={.001} />
             </div>
 
             <h3>Slow Pump Rate Data:</h3>

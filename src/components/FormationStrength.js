@@ -24,22 +24,22 @@ export default function FormationStrength({ formData, updateFormData, nextStep }
 
             <div>
                 <label>SURFACE LEAK-OFF PRESSURE (psi):</label>
-                <input type="number" name="surfaceLeakOff" value={data.surfaceLeakOff} onChange={handleChange} required />
+                <input type="number" name="surfaceLeakOff" value={data.surfaceLeakOff} onChange={handleChange} required  step={.001}/>
             </div>
 
             <div>
                 <label>MUD WEIGHT AT TEST (ppg):</label>
-                <input type="number" name="mudWeightAtTest" value={data.mudWeightAtTest} onChange={handleChange} required />
+                <input type="number" name="mudWeightAtTest" value={data.mudWeightAtTest} onChange={handleChange} required step={.001}/>
             </div>
 
             <div>
                 <label>CURRENT MUD WEIGHT (ppg):</label>
-                <input type="number" name="currentMudWeight" value={data.currentMudWeight} onChange={handleChange} required />
+                <input type="number" name="currentMudWeight" value={data.currentMudWeight} onChange={handleChange} required step={.001} />
             </div>
 
             <div>
                 <label>SHOE T.V. DEPTH (ft):</label>
-                <input type="number" name="shoeTvDepth" value={data.shoeTvDepth} onChange={handleChange} required />
+                <input type="number" name="shoeTvDepth" value={data.shoeTvDepth} onChange={handleChange} required step={.001} />
             </div>
 
             <button type="submit">Next</button>

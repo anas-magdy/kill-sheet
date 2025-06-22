@@ -24,22 +24,22 @@ export default function KickData({ formData, updateFormData, nextStep, prevStep 
 
             <div>
                 <label>SIDPP (psi):</label>
-                <input type="number" name="sidpp" value={data.sidpp} onChange={handleChange} required />
+                <input type="number" name="sidpp" value={data.sidpp} onChange={handleChange} required step={.001} />
             </div>
 
             <div>
                 <label>SICP (psi):</label>
-                <input type="number" name="sicp" value={data.sicp} onChange={handleChange} required />
+                <input type="number" name="sicp" value={data.sicp} onChange={handleChange} required step={.001} />
             </div>
 
             <div>
                 <label>PIT GAIN (barrels):</label>
-                <input type="number" name="pitGain" value={data.pitGain} onChange={handleChange} required />
+                <input type="number" name="pitGain" value={data.pitGain} onChange={handleChange} required step={.001} />
             </div>
 
             <div>
                 <label>True Vertical Depth (TVD) (ft):</label>
-                <input type="number" name="tvd" value={data.tvd} onChange={handleChange} required />
+                <input type="number" name="tvd" value={data.tvd} onChange={handleChange} required step={.001} />
             </div>
 
             <div>

@@ -34,12 +34,12 @@ export default function VolumeData({ formData, updateFormData, nextStep, prevSte
             <h3>Drill String Volume</h3>
             <div>
                 <label>Drill Pipe Length (ft):</label>
-                <input type="number" name="drillPipeLength" value={data.drillPipeLength} onChange={handleChange} required />
+                <input type="number" name="drillPipeLength" value={data.drillPipeLength} onChange={handleChange} required step={.001} />
             </div>
 
             <div>
                 <label>Drill Pipe Capacity (bbls/ft):</label>
-                <input type="number" name="drillPipeCapacity" value={data.drillPipeCapacity} onChange={handleChange} required />
+                <input type="number" name="drillPipeCapacity" value={data.drillPipeCapacity} onChange={handleChange} required step={.001}/>
             </div>
 
             {/* باقي حقول الحجم حسب الحاجة */}
