@@ -1,0 +1,24 @@
+{
+    "name": "PetroBarrel - Well Control Calculator",
+    "short_name": "PetroBarrel",
+    "description": "Surface BOP Vertical Well Kill Sheet Calculator",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "theme_color": "#8936FF",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/icon512_maskable.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/icon512_rounded.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
