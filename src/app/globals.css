@@ -71,6 +71,7 @@ input[type="text"] {
   border-radius: 6px;
   font-size: 1rem;
   background: #f1f5f9;
+  width: 100%;
   transition: border 0.2s;
 }
 
