@@ -46,7 +46,8 @@ export default function Home() {
         <title>PetroBarrel - Well Control Calculator</title>
         <meta name="description" content="Surface BOP Vertical Well Kill Sheet Calculator" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-        <meta name="theme-color" content="#8936FF" />
+        <meta name="theme-color" content="#f3f4f6" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <link rel="manifest" href="/manifest.json" />
         <link rel="icon" href="/icon512_rounded.png" />
         <link rel="apple-touch-icon" href="/icon512_rounded.png" />

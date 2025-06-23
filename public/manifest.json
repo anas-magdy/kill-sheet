@@ -4,8 +4,8 @@
     "description": "Surface BOP Vertical Well Kill Sheet Calculator",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#FFFFFF",
-    "theme_color": "#8936FF",
+    "background_color": "#f3f4f6",
+    "theme_color": "#f3f4f6",
     "orientation": "portrait",
     "icons": [
         {

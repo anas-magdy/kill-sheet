@@ -15,7 +15,7 @@ export const metadata = {
   title: 'PetroBarrel - Well Control Calculator',
   description: 'Surface BOP Vertical Well Kill Sheet Calculator',
   manifest: '/manifest.json',
-  themeColor: '#8936FF',
+  themeColor: '#f3f4f6',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
